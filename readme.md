@@ -6,6 +6,8 @@ La prise en main du framework n'a pas été évidente au début. Habituée à tr
 
 Aujourd'hui, j'apprécie de travailler avec car je réalise tout ce qui y est automatisé, et le temps qu'il me faudrait pour faire la même chose avec du PHP pur. Mais la route est encore longue pour maîtriser les diverses fonctionnailités du framework. Il me faut encore un peu (BEAUCOUP) de travail pour réussir à travailler aussi bien sur les fonctionnalités du projet mais aussi, je ne le sais que trop bien, sur son visuel.
 
+La base de données et le connexion_admin.txt vous permettront de voir le CRUD admin réalisé.
+
 J'espère que vous trouverez en vous la force d'apprécier ce travail !
 
 
