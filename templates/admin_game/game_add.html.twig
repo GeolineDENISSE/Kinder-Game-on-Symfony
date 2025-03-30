@@ -1,0 +1,23 @@
+{% extends "base_admin.html.twig" %}
+
+{% block title %}
+
+Créer un jeu
+
+{% endblock %}
+
+{% block div %}
+
+<h1 class="mb-3">Création de jeu</h1>
+
+<a class="btn btn-outline-info mb-3" href="{{ path('admin_game_liste') }}">Retour à la liste</a>
+
+{{ form_start(form) }}
+
+{{ form(form) }}
+
+{{ form_end(form) }}
+
+
+
+{% endblock %}

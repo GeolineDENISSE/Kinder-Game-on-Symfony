@@ -1,0 +1,23 @@
+{% extends "base_admin.html.twig" %}
+
+{% block title %}
+Category
+{% endblock %}
+
+{% block div %}
+
+<h1>{{ category.label }}</h1>
+
+<a class="btn btn-outline-info mb-3" href="{{ path('admin_category_liste') }}">Retour à la liste</a>
+
+<p>Couleur de la catégorie: {{ category.color}}</p>
+
+<h2>Liste des jeux de catégorie "{{category.label}}"</h2>
+
+{% for game in games %}
+
+<p>{{game.label}}</p>
+
+{% endfor %}
+
+{% endblock %}
